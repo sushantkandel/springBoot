@@ -1,6 +1,6 @@
 Materials Manipulator 
 ====
-# Introduction
+## Introduction
 This is inconvinent and high cost generator over longterm ,keeping the hard copy record of your materials available.  To solve the problem and increase the efficiency,Here it comes **Material Analyzer**.This API helps you to Create,  Delete,Update and List the materials through your Database.Which make you data acquistion more effective and enhanced.
 
 # Naming Convention Used:
@@ -57,3 +57,5 @@ In this API we are sending the request to perform the operation through the help
          _**/categories/{categoryId}/products/{id}**_ :Remove the product of the given id.  
   **URI in CategoryController:**  
            _**/categories/{id}**_ :Remove the category of the given id.
+           
+#  Project Structure image :  
