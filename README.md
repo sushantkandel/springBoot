@@ -59,4 +59,21 @@ In this API we are sending the request to perform the operation through the help
            _**/categories/{id}**_ :Remove the category of the given id.
            
 #  Project Structure image :  
-![Capture](https://user-images.githubusercontent.com/30270813/57755305-4f972b80-7710-11e9-816d-7ecd801de0c2.JPG)
+![Capture](https://user-images.githubusercontent.com/30270813/57755305-4f972b80-7710-11e9-816d-7ecd801de0c2.JPG)  
+# Reference :  
+1 [Java Brains][example].
+
+  [example]: https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
+2 [Baeldung][example].
+
+  [example]: https://www.baeldung.com/spring-boot  
+3 [Spring By pivotal][example].
+
+  [example]: https://spring.io/guides/gs/spring-boot/  
+4 [In 28 minutes][example].
+
+  [example]: https://www.youtube.com/user/rithustutorials  
+
+  
+
+
