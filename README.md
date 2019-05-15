@@ -32,9 +32,12 @@ This is inconvinent and high cost generator over longterm ,keeping the hard copy
 In this API we are sending the request to perform the operation through the help of Postman.If the given request is mapped sucessfully in the controller class then the mapped function in the controller is executed.Function call the service that is wired in it and call the respective mentioned method.All the business logic were written in the service class. In order to work with the Database also to use the JPA service extended by the Repository Interface ,Repository interface is Autowired in the service class.So that we can utilize the given CRUDE inbuilt function.For your own operation function which you haven't found in the JPA Repository you dont have to implement the function,you only have to define the method signature only because the JPA Repository is injelligent enough to know what to do on the behalf of the given method signature.But to write the signature you have to follow the syntax rule.Below we are explaning the Details of the verious terms used to perform the action.  
 # HTTP Request Method Used :
 
-* **GET   :** The GET method is used to retrieve information from the given server using a given URI(_Uniform Resource Identifier_). Requests using GET should only retrieve data and should have no other effect on the data.  
-  **URI in ProductController :**
-         /categories/{id}/products  this is used to get all the product present in the given id categories.
+* **GET   :** The GET method is used to retrieve information from the given server using a given URI(_Uniform Resource Identifier_). Requests using GET should only retrieve data and should have no other effect on the data.
+  **URI in ProductController :**  
+         /categories/{id}/products :  this is used to get all the product present in the given id categories.  
+         /categories/{categoryId}/products/{id} :this is used to get the product of the mentioned id present in the CategoryId.
+         
+  **URI in CategoryController:**
 
 * **POST  :** A POST request is used to send data to the server.
 
