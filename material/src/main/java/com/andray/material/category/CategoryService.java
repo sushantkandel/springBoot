@@ -20,11 +20,11 @@ public class CategoryService {
 
 
     public Category getCategoryById(Long id) throws Exception {
-        Optional<Category> topic = categoryRepository.findById(id);
-        if (topic == null) {
+        Optional<Category> category = categoryRepository.findById(id);
+        if (category == null) {
             throw new Exception("Jpt exception");
         }
-        return topic.get();
+        return category.get();
     }
 
     public void addCategory(Category category) {
