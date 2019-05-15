@@ -10,30 +10,30 @@ public class CategoryController {
     @Autowired
     private CategoryService categoryService;
 
-    @RequestMapping("/category")
+    @RequestMapping("/categories")
     public List<Category> getAll() {
         return categoryService.getAllCategory();
     }
 
-    @RequestMapping("/category/{id}")
+    @RequestMapping("/categories/{id}")
     public Category getCategory(@PathVariable Long id) throws Exception {
         return categoryService.getCategoryById(id);
     }
 
     //@RequestMapping(method = RequestMethod.POST, value = "/topics")
-    @PostMapping("/category")
+    @PostMapping("/categories")
     public void add(@RequestBody Category category) {
         categoryService.addCategory(category);
     }
 
     //    @RequestMapping(method = RequestMethod.PUT, value = "/topics")
-    @PutMapping("/category")
+    @PutMapping("/categories")
     public void update(@RequestBody Category category) {
         categoryService.updateCategory(category);
     }
 
     //@RequestMapping(method = RequestMethod.DELETE, value = "/topics/{id}")
-    @DeleteMapping("/category/{id}")
+    @DeleteMapping("/categories/{id}")
     public void delete(@PathVariable Long id) throws Exception {
         categoryService.deleteCategory(id);
     }

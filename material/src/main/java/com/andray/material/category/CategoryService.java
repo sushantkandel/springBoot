@@ -18,6 +18,7 @@ public class CategoryService {
         return categories;
     }
 
+
     public Category getCategoryById(Long id) throws Exception {
         Optional<Category> topic = categoryRepository.findById(id);
         if (topic == null) {
