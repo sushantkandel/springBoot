@@ -1,4 +1,4 @@
-package com.andray.material.category;
+package com.andray.materialAnalyzer.category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

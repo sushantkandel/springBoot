@@ -1,6 +1,6 @@
-package com.andray.material.product;
+package com.andray.materialAnalyzer.product;
 
-import com.andray.material.category.Category;
+import com.andray.materialAnalyzer.category.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

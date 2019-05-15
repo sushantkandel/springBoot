@@ -1,4 +1,4 @@
-package com.andray.material.category;
+package com.andray.materialAnalyzer.category;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

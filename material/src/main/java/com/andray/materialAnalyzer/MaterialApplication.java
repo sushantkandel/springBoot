@@ -1,4 +1,4 @@
-package com.andray.material;
+package com.andray.materialAnalyzer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -16,7 +16,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/Category.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/Category.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -43,9 +43,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="-135">
               <caret line="21" column="77" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,7 +55,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/ProductService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
@@ -67,7 +67,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/CategoryRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
@@ -76,10 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/ProductRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/ProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,19 +88,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="28" />
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/ProductController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,7 +109,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/CategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
@@ -148,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/andray/material/product/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/Product.java" />
       </list>
     </option>
   </component>
@@ -257,16 +258,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="material" type="b2602c69:ProjectViewProjectNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="materialAnalyzer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +319,7 @@
   </component>
   <component name="RunManager">
     <configuration name="MaterialApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="material" />
+      <module name="materialAnalyzer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.andray.material.MaterialApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -347,12 +339,12 @@
       <workItem from="1557808017751" duration="10272000" />
       <workItem from="1557820021690" duration="579000" />
       <workItem from="1557826793289" duration="3767000" />
-      <workItem from="1557892399786" duration="9527000" />
+      <workItem from="1557892399786" duration="9778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24145000" />
+    <option name="totallyTimeSpent" value="24396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -443,7 +435,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/DellerManager/category/Category.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/DellerManager/category/CategoryController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/exception/NotFoundException.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/MaterialApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/MaterialApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
@@ -470,7 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
@@ -487,7 +479,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -498,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
@@ -519,7 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
@@ -529,43 +521,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/CategoryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/ProductRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/ProductRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/ProductController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/category/CategoryController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/category/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="28" />
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/material/product/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="-135">
           <caret line="21" column="77" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />

@@ -1,4 +1,4 @@
-package com.andray.material.category;
+package com.andray.materialAnalyzer.category;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
