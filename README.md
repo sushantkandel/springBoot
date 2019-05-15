@@ -59,3 +59,4 @@ In this API we are sending the request to perform the operation through the help
            _**/categories/{id}**_ :Remove the category of the given id.
            
 #  Project Structure image :  
+![Capture](https://user-images.githubusercontent.com/30270813/57755305-4f972b80-7710-11e9-816d-7ecd801de0c2.JPG)
