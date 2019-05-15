@@ -45,7 +45,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
+            <state relative-caret-position="357">
               <caret line="21" column="77" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -159,7 +159,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="100" />
     <option name="y" value="30" />
     <option name="width" value="1750" />
@@ -260,6 +260,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="materialAnalyzer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="material" type="b2602c69:ProjectViewProjectNode" />
+              <item name="material" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="materialAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="material" type="b2602c69:ProjectViewProjectNode" />
+              <item name="material" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="materialAnalyzer" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -339,17 +357,17 @@
       <workItem from="1557808017751" duration="10272000" />
       <workItem from="1557820021690" duration="579000" />
       <workItem from="1557826793289" duration="3767000" />
-      <workItem from="1557892399786" duration="9778000" />
+      <workItem from="1557892399786" duration="10900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24396000" />
+    <option name="totallyTimeSpent" value="25518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26778522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26778522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -365,7 +383,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.13314448" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -557,7 +575,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/andray/materialAnalyzer/product/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
+        <state relative-caret-position="357">
           <caret line="21" column="77" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
