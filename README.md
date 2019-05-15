@@ -60,7 +60,7 @@ In this API we are sending the request to perform the operation through the help
            
 #  Project Structure image :  
 ![Capture](https://user-images.githubusercontent.com/30270813/57755305-4f972b80-7710-11e9-816d-7ecd801de0c2.JPG)  
-# Reference :  
+# References :  
 1 [Java Brains][example].
 
   [example]: https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
