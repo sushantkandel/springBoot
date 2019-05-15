@@ -3,7 +3,7 @@ Materials Manipulator
 ## Introduction
 This is inconvinent and high cost generator over longterm ,keeping the hard copy record of your materials available.  To solve the problem and increase the efficiency,Here it comes **Material Analyzer**.This API helps you to Create,  Delete,Update and List the materials through your Database.Which make you data acquistion more effective and enhanced.
 
-# Naming Convention Used:
+## Naming Convention Used:
 
 * **Variable       :** Staring with small letter following Camelcase approach.
 
@@ -14,7 +14,7 @@ This is inconvinent and high cost generator over longterm ,keeping the hard copy
 * **Interface name :** Starting with Capital letter following Camelcase approach.
 
 * **Package name   :** writing in small letter and path is defined by using(.) between the directories.
-# Technology Used :
+## Technology Used :
 
 * **Java 1.8**
 
@@ -28,9 +28,9 @@ This is inconvinent and high cost generator over longterm ,keeping the hard copy
 
 * **Postman**
 ---
-# Operation and Details :
+## Operation and Details :
 In this API we are sending the request to perform the operation through the help of Postman.If the given request is mapped sucessfully in the controller class then the mapped function in the controller is executed.Function call the service that is wired in it and call the respective mentioned method.All the business logic were written in the service class. In order to work with the Database also to use the JPA service extended by the Repository Interface ,Repository interface is Autowired in the service class.So that we can utilize the given CRUD inbuilt function.For your own operation function which you haven't found in the JPA Repository you dont have to implement the function,you only have to define the method signature only because the JPA Repository is injelligent enough to know what to do on the behalf of the given method signature.But to write the signature you have to follow the syntax rule.Below we are explaning the Details of the verious terms used to perform the action.  
-# HTTP Request Method Used :
+## HTTP Request Method Used :
 
 * **GET   :** The GET method is used to retrieve information from the given server using a given URI(_Uniform Resource Identifier_). Requests using GET should only retrieve data and should have no other effect on the data.  
   **URI in ProductController :**  
@@ -58,9 +58,9 @@ In this API we are sending the request to perform the operation through the help
   **URI in CategoryController:**  
            _**/categories/{id}**_ :Remove the category of the given id.
            
-#  Project Structure image :  
+##  Project Structure image :  
 ![Capture](https://user-images.githubusercontent.com/30270813/57755305-4f972b80-7710-11e9-816d-7ecd801de0c2.JPG)  
-# References :  
+## References :  
 1 [Java Brains][example].
 
   [example]: https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
