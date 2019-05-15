@@ -34,11 +34,11 @@ In this API we are sending the request to perform the operation through the help
 
 * **GET   :** The GET method is used to retrieve information from the given server using a given URI(_Uniform Resource Identifier_). Requests using GET should only retrieve data and should have no other effect on the data.  
   **URI in ProductController :**  
-         **/categories/{id}/products** :  this is used to get all the product present in the given id categories.  
-         **/categories/{categoryId}/products/{id}** :this is used to get the product of the mentioned id present in the categoryId.    
+         _/categories/{id}/products_ :  this is used to get all the product present in the given id categories.  
+         _/categories/{categoryId}/products/{id}_ :this is used to get the product of the mentioned id present in the categoryId.    
          **URI in CategoryController:**  
-         **/categories** :This is used to get all the categories present.  
-         **/categories/{id}** :This is used to get all the categories by its id.
+         _/categories_ :This is used to get all the categories present.  
+         _/categories/{id}_ :This is used to get all the categories by its id.
 
 * **POST  :** A POST request is used to send data to the server.
 
