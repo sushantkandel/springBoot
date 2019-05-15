@@ -17,7 +17,6 @@ Delete,Update and List the materials through your Database.Which make you data a
 * **Interface name :** Starting with Capital letter following Camelcase approach.
 
 * **Package name   :** writing in small letter and path is defined by using(.) between the path.
----
 # Technology Used :
 
 * **Java 1.8**
