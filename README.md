@@ -8,7 +8,15 @@ Delete,Update and List the materials through your Database.Which make you data a
 ---
 # Naming Convention Used:
 
-* **Variable:** Staring with Small letter having Camelcase 
+* **Variable       :** Staring with small letter following Camelcase approach.
+
+* **Method name    :** Staring with small letter following Camelcase approach.
+
+* **Class name     :** Starting with Capital letter following Camelcase approach.
+
+* **Interface name :** Starting with Capital letter following Camelcase approach.
+
+* **Package name   :** writing in small letter and path is defined by using(.) between the path.
 
 
 this is second test
