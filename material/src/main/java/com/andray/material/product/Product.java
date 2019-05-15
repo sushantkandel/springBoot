@@ -1,6 +1,6 @@
-package com.andray.materialAnalyzer.product;
+package com.andray.material.product;
 
-import com.andray.materialAnalyzer.category.Category;
+import com.andray.material.category.Category;
 
 import javax.persistence.*;
 

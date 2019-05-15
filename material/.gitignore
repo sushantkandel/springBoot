@@ -1,4 +1,4 @@
 /.idea
 /.mvn
-target
-materialAnalyzer.iml
+/target
+/materialAnalyzer.iml
