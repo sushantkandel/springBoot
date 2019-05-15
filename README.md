@@ -52,7 +52,8 @@ In this API we are sending the request to perform the operation through the help
   **URI in CategoryController:**  
           _**/categories**_ :Replace the current category with the uploaded category.  
 
-* **DELETE:** Removes all the current representations of the target resource given by URI(_Uniform Resource Identifier_).
-
-
-
+* **DELETE:** Removes all the current representations of the target resource given by URI(_Uniform Resource Identifier_).  
+  **URI in ProductController :**    
+         _**/categories/{categoryId}/products/{id}**_ :Remove the product of the given id.  
+  **URI in CategoryController:**  
+           _**/categories/{id}**_ :Remove the category of the given id.
