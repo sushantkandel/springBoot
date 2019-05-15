@@ -46,7 +46,11 @@ In this API we are sending the request to perform the operation through the help
   **URI in CategoryController:**  
           _**/categories**_ :This is used to add the new category. 
   
-* **PUT   :** Replaces all the current representations of the target resource with the uploaded content.
+* **PUT   :** Replaces all the current representations of the target resource with the uploaded content.  
+  **URI in ProductController :**  
+          _**/categories/{categoryId}/products**_ :Replace the current product with the uploaded product.  
+  **URI in CategoryController:**  
+          _**/categories**_ :Replace the current category with the uploaded category.  
 
 * **DELETE:** Removes all the current representations of the target resource given by URI(_Uniform Resource Identifier_).
 
