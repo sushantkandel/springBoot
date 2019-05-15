@@ -38,10 +38,14 @@ In this API we are sending the request to perform the operation through the help
          _**/categories/{categoryId}/products/{id}**_ :this is used to get the product of the mentioned id present in the categoryId.    
          **URI in CategoryController:**  
          _**/categories**_ :This is used to get all the categories present.  
-         _**/categories/{id}**_ :This is used to get all the categories by its id.
+         _**/categories/{id}**_ :This is used to get the categories by its id.
 
-* **POST  :** A POST request is used to send data to the server.
-
+* **POST  :** A POST request is used to send data to the server.  
+  **URI in ProductController :**  
+          _**/categories/{categoryId}/products**_ :This is used to add the product to the mentioned categoryId.  
+  **URI in CategoryController:**  
+          _**/categories**_ :This is used to add the new category. 
+  
 * **PUT   :** Replaces all the current representations of the target resource with the uploaded content.
 
 * **DELETE:** Removes all the current representations of the target resource given by URI(_Uniform Resource Identifier_).
