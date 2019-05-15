@@ -15,7 +15,7 @@ Delete,Update and List the materials through your Database.Which make you data a
 
 * **Interface name :** Starting with Capital letter following Camelcase approach.
 
-* **Package name   :** writing in small letter and path is defined by using(.) between the path.
+* **Package name   :** writing in small letter and path is defined by using(.) between the directories.
 # Technology Used :
 
 * **Java 1.8**
@@ -29,3 +29,5 @@ Delete,Update and List the materials through your Database.Which make you data a
 * **Maven Project**
 
 * **Postman**
+---
+# Operation and Details :
