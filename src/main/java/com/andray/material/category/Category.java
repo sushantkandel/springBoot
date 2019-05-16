@@ -7,8 +7,8 @@ import javax.persistence.Id;
 
 /**
  * The Category is the entity as it is annotated with the @Entity annotation.
- * This class contain the various entity variable which name is similar with the entity variable in the database table.
- * id is made as a primary key by annotating with the @Id annotation and it is auto generated.
+ * This class contain the various entity variable, which name is similar with the entity variable in the database table.
+ * id is made as a primary key by annotating with the @Id annotation and its value is auto generated.
  */
 @Entity
 public class Category {
