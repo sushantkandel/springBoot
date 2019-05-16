@@ -28,7 +28,7 @@ public class Product {
         this.name = name;
         this.description = description;
         this.price = price;
-        this.category = new Category(categoryId,"hari","");
+        this.category = new Category(categoryId,"","");
     }
 
     public Long getId() {
