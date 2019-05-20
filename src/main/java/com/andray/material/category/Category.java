@@ -18,9 +18,7 @@ public class Category {
     private String name;
     private String description;
 
-    /**
-     * This is a default Category constructor.
-     */
+
     public Category() {
     }
 

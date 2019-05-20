@@ -1,11 +1,11 @@
 package com.andray.material.category;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
-
 
 @RestController
 public class CategoryController {
@@ -39,8 +39,10 @@ public class CategoryController {
      */
     //@RequestMapping(method = RequestMethod.POST, value = "/topics")
     @PostMapping("/categories")
-    public void add(@RequestBody Category category) {
-        categoryService.addCategory(category);
+    public ResponseEntity<?> add(@RequestBody Category category) {
+
+        Category categorySaved= categoryService.addCategory(category);
+        return new ResponseEntity<>(categorySaved, HttpStatus.CREATED);
     }
 
     /**
@@ -49,8 +51,10 @@ public class CategoryController {
      */
     //    @RequestMapping(method = RequestMethod.PUT, value = "/topics")
     @PutMapping("/categories")
-    public void update(@RequestBody Category category) {
+    public ResponseEntity<?>  update(@RequestBody Category category) {
+
         categoryService.updateCategory(category);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     /**
@@ -60,7 +64,7 @@ public class CategoryController {
      */
     //@RequestMapping(method = RequestMethod.DELETE, value = "/topics/{id}")
     @DeleteMapping("/categories/{id}")
-    public void delete(@PathVariable Long id) throws Exception {
+    public void deleteCategory(@PathVariable Long id) throws Exception {
         categoryService.deleteCategory(id);
     }
 

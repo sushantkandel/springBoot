@@ -3,10 +3,11 @@ package com.andray.material.product;
 import java.util.List;
 
 public interface ProductService {
-    public List<Product> getAllProduct(Long categoryId);
-    public Product getProductById(Long id) throws Exception;
-    public void addProduct(Product product);
-    public void updateProduct(Product product);
-    public void deleteProduct(Long id) throws Exception;
+    List<Product> getAllProduct(Long categoryId);
+    Product getProductById(Long id) throws Exception;
+    void addProduct(Product product);
+    void updateProduct(Product product);
+    void deleteProduct(Long id) throws Exception;
+
 
 }
